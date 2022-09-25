@@ -10,7 +10,7 @@ struct Debtor {
 
 struct Bank {
 	char* name;
-	char* debtors;
+	Debtor** debtor;
 	int debtor_count;
 	double totaldebt;
 	double totalBudget;
