@@ -7,7 +7,6 @@ struct Debtor {
 	double debt;
 };
 
-
 struct Bank {
 	char* name;
 	char* debtors;
